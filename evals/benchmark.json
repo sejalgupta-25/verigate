@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "evidence": [
+      "Northwind Robotics was founded in 2018 and is headquartered in Austin, Texas.",
+      "The company shipped its first commercial product, a warehouse picking arm, in 2021."
+    ],
+    "answer_clean": "Northwind Robotics is based in Austin, Texas, and shipped its first commercial product in 2021.",
+    "answer_hallucinated": "Northwind Robotics is based in Austin, Texas, and became profitable in 2021 after shipping its first product."
+  },
+  {
+    "id": "2",
+    "evidence": [
+      "Q3 revenue was $4.2M, up 18% quarter over quarter.",
+      "The increase was driven primarily by renewals in the enterprise segment."
+    ],
+    "answer_clean": "Q3 revenue grew 18% quarter over quarter to $4.2M, driven mainly by enterprise renewals.",
+    "answer_hallucinated": "Q3 revenue grew 18% quarter over quarter to $4.2M, driven mainly by a new partnership with a major cloud provider."
+  },
+  {
+    "id": "3",
+    "evidence": [
+      "The clinical trial enrolled 340 patients across 12 sites.",
+      "The primary endpoint was met with a p-value of 0.03."
+    ],
+    "answer_clean": "The trial enrolled 340 patients at 12 sites and met its primary endpoint (p=0.03).",
+    "answer_hallucinated": "The trial enrolled 340 patients at 12 sites and showed a 40% reduction in symptoms versus placebo."
+  },
+  {
+    "id": "4",
+    "evidence": [
+      "The API rate limit is 100 requests per minute on the free tier.",
+      "Paid tiers start at $49/month for 1,000 requests per minute."
+    ],
+    "answer_clean": "The free tier allows 100 requests per minute; paid plans start at $49/month for 1,000 requests per minute.",
+    "answer_hallucinated": "The free tier allows 100 requests per minute; paid plans start at $49/month and include a dedicated support engineer."
+  },
+  {
+    "id": "5",
+    "evidence": [
+      "The board approved the acquisition of Delta Logistics for $12M in cash.",
+      "The deal is expected to close in Q1 next year, pending regulatory review."
+    ],
+    "answer_clean": "The board approved a $12M cash acquisition of Delta Logistics, expected to close in Q1 pending regulatory review.",
+    "answer_hallucinated": "The board approved a $12M cash acquisition of Delta Logistics, which will double the company's headcount overnight."
+  },
+  {
+    "id": "6",
+    "evidence": [
+      "The new data center in Ohio will run entirely on renewable energy by 2027.",
+      "Construction began in March and is expected to take 18 months."
+    ],
+    "answer_clean": "The Ohio data center, under construction since March, will run entirely on renewable energy by 2027.",
+    "answer_hallucinated": "The Ohio data center, under construction since March, will be the largest data center in North America."
+  },
+  {
+    "id": "7",
+    "evidence": [
+      "The migration moved 2.3 million records from the legacy system with zero data loss.",
+      "Total downtime during the cutover was 14 minutes."
+    ],
+    "answer_clean": "The migration moved 2.3 million records with zero data loss and only 14 minutes of downtime.",
+    "answer_hallucinated": "The migration moved 2.3 million records with zero data loss and cut infrastructure costs by 60%."
+  },
+  {
+    "id": "8",
+    "evidence": [
+      "Customer churn dropped from 6.1% to 4.4% after the onboarding redesign shipped in June.",
+      "The redesign added a guided setup flow and in-app checklist."
+    ],
+    "answer_clean": "Churn fell from 6.1% to 4.4% after June's onboarding redesign, which added a guided setup flow and checklist.",
+    "answer_hallucinated": "Churn fell from 6.1% to 4.4% after June's onboarding redesign, which the CEO called the most important launch in company history."
+  }
+]
